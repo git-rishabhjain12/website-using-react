@@ -1,6 +1,22 @@
 import React from "react";
 import { Carousel } from "./CarouselData/Carousel";
-import  slides  from "./CarouselData/CarouselData.json";
+import "./banner.css"
+// import slides from "./CarouselData/CarouselData.json";
+
+const slides = [
+    {
+      src: "./images/adi-kailsah.jpg",
+      alt: "Adi Kailash",
+    },
+    {
+      src: "./images/Chadar-Frozen-River-Trek-Ladakh.jpg",
+      alt: "Frozen River Trek",
+    },
+    {
+      src: "./images/banner-img01.jpg",
+      alt: "Golden Triangle Tour",
+    },
+  ];
 
 function Banner() {
   return (
@@ -12,7 +28,9 @@ function Banner() {
               <Carousel data={slides} />
             </div>
           </div>
-          <div className="rightSection"></div>
+          <div className="rightSection">
+            <h1>right</h1>
+          </div>
         </div>
       </section>
     </>

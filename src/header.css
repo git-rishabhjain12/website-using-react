@@ -119,7 +119,7 @@ header .headerTop .left img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 102%;
+    width: auto;
     padding: 1rem 0 0.3rem;
 }
 
