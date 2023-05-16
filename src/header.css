@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+header .headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* HEADER LEFT STARTS */
+
+header .headerTop .left {
+    padding-left: 1rem;
+}
+
+
+header .headerTop .left img {
+    width: 200px;
+}
+
+/* HEADER LEFT ENDS */
+
+/* HEADER MIDDLE STARTS */
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    position: relative;
+}
+
+.middle .form {
+    display: flex;
+    align-items: center;
+    border: 2px solid lightgray;
+    padding: 0.6rem;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.middle .form .form-containers {
+    display: flex;
+    align-items: center;
+}
+
+.verticaleLine {
+    border-left: 2px solid lightgrey;
+    height: 30px;
+    padding: 0px 0.6rem;
+}
+
+.middle .form .location input {
+    border: none;
+    width: 18rem;
+    padding: 0 0.3rem;
+    font-size: 1rem;
+}
+
+.middle .form .calendar input {
+    border: none;
+    width: 10rem;
+    font-size: 1rem;
+    padding: 0 0.3rem;
+}
+
+.middle .form .budget input {
+    border: none;
+    width: 10rem;
+    padding: 0 0.3rem;
+    font-size: 1rem;
+}
+
+.middle .form .location .icons,
+.middle .form .calendar .icons,
+.middle .form .budget .icons {
+    color: grey;
+}
+
+
+.middle .searchBtn {
+    background-color: lightcoral;
+    border-radius: 50%;
+    padding: 1rem;
+    position: absolute;
+    right: -5px;
+}
+
+/* HEADER MIDDLE ENDS */
+
+/* HEADER RIGHT STARTS */
+.right {
+    padding-right: 1rem;
+
+}
+
+.right .rightSideIcons {
+    border: 2px solid lightgrey;
+    border-radius: 50px;
+    padding: 0.6rem 1rem;
+}
+
+.right .rightSideIcons .sideIcons {
+    margin: 0 10px;
+    color: black;
+}
+
+/* HEADER RIGHT ENDS */
+
+/* HEADER BOTTOM STARTS */
+.headerBottom nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102%;
+    padding: 1rem 0 0.3rem;
+}
+
+.headerBottom nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.headerBottom nav ul li {
+    margin: 0 0.9rem;
+}
+
+.headerBottom nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* HEADER BOTTOM ENDS */
+
+.horizontalLine {
+    display: inline-block;
+    border-bottom: 1px solid rgb(185, 180, 180);
+    width: 100%;
+}
