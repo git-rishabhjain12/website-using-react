@@ -6,9 +6,9 @@ export const Carousel = ({ data }) => {
   return (
     <>
       <div>
-        {data.map((item, index) => {
+        {/* {data.map((item, index) => {
           return <img src={item.src} alt={item.alt} key={index} />;
-        })}
+        })} */}
       </div>
     </>
   );
